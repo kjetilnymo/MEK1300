@@ -131,7 +131,7 @@ for number in values: # går igjennom hvert tall i lista
         odd.append(number) #legges den inn i oss lista
 print("Even list",even,"Odd list",odd) #printer ut begge listene
 
-"""
+
 #5
 count = 0
 if count < 10:
@@ -142,8 +142,9 @@ if count < 10:
 
 print(values)
   
-#c1
 
+
+#c1
 
 
 total = 0
