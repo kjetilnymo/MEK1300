@@ -1,5 +1,7 @@
 import random
 
+"""
+
 def main():
          print("Welcome to rock paper scissors game.")
 
@@ -33,5 +35,6 @@ def get_player_choice(moves):
 
 def get_computer_move(moves):
         
-        
+"""
+
 #Kode ikke ferdig
