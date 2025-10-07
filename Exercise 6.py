@@ -142,3 +142,39 @@ if count < 10:
 
 print(values)
   
+#c1
+
+
+
+total = 0
+
+for number in values:
+    if number % 2 == 0:
+        total = total + 1
+
+print(total)
+
+
+
+#Oppgave 4
+
+even_values = []
+odd_values = []
+
+for number in values:
+    if number % 2 == 0:
+        even_values.append(number)
+    else:
+        odd_values.append(number)
+
+print(f"The even numbers are:", even_values, "\nand the odd numbers are:", odd_values,".")
+
+"""
+
+#Oppgave 5
+
+for number in values[:]: #[:] lager en kopi av lista
+    if number % 2 != 0: #går gjennom lista og finner oddetall
+        values.remove(number) #fjerner oddetall fra lista 'values'
+
+print(values) #printer nye lista uten oddetall
