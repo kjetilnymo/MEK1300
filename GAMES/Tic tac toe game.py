@@ -1,7 +1,7 @@
 def main():
     player1 = 'X'
     player2 = 'O'
-    num_list = ['1,', '2', '3', '4', '5', '6', '7', '8', '9']
+    num_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
     char_list = ['_'] * 9
 
     draw_board(num_list)
@@ -44,14 +44,14 @@ def main():
 def draw_board(char_list):
     print("\n\tTic-Tac-Toe")
     
-    print("\t+++++++++")
-    print("\t|| " + char_list[0] + " || " + char_list[1] + " || " + char_list[2] )
+    print("\t+++++++++++++++++")
+    print("\t|| " + char_list[0] + " || " + char_list[1] + " || " + char_list[2] + " || ")
     
-    print("\t+++++++++")
-    print("\t|| " + char_list[3] + " || " + char_list[4] + " || " + char_list[5] )
+    print("\t+++++++++++++++++")
+    print("\t|| " + char_list[3] + " || " + char_list[4] + " || " + char_list[5] + " || ")
     
-    print("\t+++++++++")
-    print("\t|| " + char_list[6] + " || " + char_list[7] + " || " + char_list[8] )
+    print("\t+++++++++++++++++")
+    print("\t|| " + char_list[6] + " || " + char_list[7] + " || " + char_list[8] + " || ")
     
 
 
