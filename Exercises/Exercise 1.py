@@ -101,17 +101,17 @@ print(f"""
     
 
 #Oppgave 5
-print(f"""
+print(f"""\n
       
 Oppgave 5:
-    """)
-print(f"{"Sum =":<15} {summ:.0f}")
-print(f"{"Difference =":<15} {difference}")
-print(f"{"Product =":<15} {product}")
-print(f"{"Average =":<15} {average}")
-print(f"{"Distance =":<15} {distance}")
-print(f"{"Maximum =":<15} {maximum}")
-print(f"{"Minimum =":<15} {minimum}")
+""")
+print(f"{'Sum =':<15} {summ:.0f}")
+print(f"{'Difference =':<15} {difference}")
+print(f"{'Product =':<15} {product}")
+print(f"{'Average =':<15} {average}")
+print(f"{'Distance =':<15} {distance}")
+print(f"{'Maximum =':<15} {maximum}")
+print(f"{'Minimum =':<15} {minimum}")
 
 
 
