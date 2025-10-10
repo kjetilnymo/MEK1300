@@ -101,10 +101,10 @@ if n<1:
     print("invalied input")
 else:
     print("the odd number(n) till number", n, "...", end="")
-            while i<=n:
+    while i<=n:
                 if i % 2 !=0:
                     print(i, end=" ")
-                        i=i+1
+                    i=i+1
 
 n=int(input("enter number of stars: "))
 
