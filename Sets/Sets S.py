@@ -25,10 +25,10 @@ def main():  #lager hoved funksjon
     words=sentence.split() #deler setningen inn i ord
     print(words) #skriver ut liste av ord
 
-for word in words: #loppen går igjen ordene og passer dem til neste def
-    cleaned=clean(word) #sender ordene til funksjon clean
-    u_set.add(word) #legger ordene inn i settene
-    print(u_set) 
+    for word in words: #loppen går igjen ordene og passer dem til neste def
+        cleaned=clean(word) #sender ordene til funksjon clean
+        u_set.add(word) #legger ordene inn i settene
+        print(u_set) 
 
 def clean(string):
     result="" #starter med tom tekst
